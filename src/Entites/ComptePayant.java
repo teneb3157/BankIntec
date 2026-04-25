@@ -10,4 +10,18 @@ public class ComptePayant extends Compte {
     public ComptePayant() {
     }
 
+    @Override
+    public int getCode() {
+        return super.getCode();
+    }
+
+    @Override
+    public void verser(float mt) {
+        super.verser(mt);
+    }
+
+    @Override
+    public void retirer(float mt) {
+        super.retirer(mt);
+    }
 }

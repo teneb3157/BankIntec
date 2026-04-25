@@ -29,4 +29,13 @@ public class CompteSimple extends Compte {
     public void retirer(float mt) {
         super.retirer(mt);
     }
+
+    public CompteSimple(int code, int nbCompte, float solde, Date createdDate, Date updatedDate) {
+        super(code, nbCompte, solde, createdDate, updatedDate);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
