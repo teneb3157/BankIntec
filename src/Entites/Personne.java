@@ -9,7 +9,9 @@ public class Personne {
     private int age;
     private String adresse;
     private String phone;
-
+    private Date dateNaissance;
+    private Date CreatedDate;
+    private  Date updatedDate ;
     public Personne(int id, String nom, String prenom, int age, String adresse, String phone, Date dateNaissance, Date createdDate, Date updatedDate) {
         this.id = id;
         this.nom = nom;
@@ -97,8 +99,6 @@ public class Personne {
     public Personne() {
     }
 
-    private Date dateNaissance;
-    private Date CreatedDate;
-    private  Date updatedDate ;
+
 
 }
