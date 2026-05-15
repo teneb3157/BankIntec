@@ -24,4 +24,9 @@ public class ComptePayant extends Compte {
     public void retirer(float mt) {
         super.retirer(mt);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

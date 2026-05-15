@@ -13,18 +13,14 @@ System.out.println("Hello and Welcome");
         Compte c3 = new Compte(10, 220,30000, new Date(),new Date());
         Compte c4 = new Compte(16, 327,45000, new Date(),new Date());
         Compte c5 = new Compte(10, 445,55000, new Date(13),new Date());
-        System.out.println(c1.toString());
-        System.out.println(c2.toString());
-        System.out.println(c3.toString());
-        System.out.println(c4.toString());
-        System.out.println(c5.toString());
 
 
-            CompteSimple cs1 = new CompteSimple(12,15,10000,new Date(),new Date());
+        CompteSimple cs1 = new CompteSimple(12,15,10000,new Date(),new Date());
         CompteSimple cs2 = new CompteSimple(1,11,550000,new Date(),new Date());
         CompteSimple cs3 = new CompteSimple(2,7,60000,new Date(),new Date());
         CompteSimple cs4 = new CompteSimple(9,2,40000,new Date(),new Date());
         CompteSimple cs5 = new CompteSimple(4,18,50000,new Date(),new Date());
+
         System.out.println(cs1.toString());
         System.out.println(cs2.toString());
         System.out.println(cs3.toString());
@@ -32,10 +28,11 @@ System.out.println("Hello and Welcome");
         System.out.println(cs5.toString());
 
         Personne p1 = new Personne(2,"Ballo", "Ami", 20, "kati", "77007700", new Date(),new Date(),new Date());
-        Personne p2 = new Personne(3,"Ballo", "Ami", 20, "golf", "77055700", new Date(),new Date(),new Date());
+        Personne p2 = new Personne(3,"maiga", "Awa", 20, "golf", "77055700", new Date(),new Date(),new Date());
         Personne p3 = new Personne(9,"Ballo", "Ami", 20, "faladie", "67007700", new Date(),new Date(),new Date());
         Personne p4 = new Personne(7,"Ballo", "Ami", 20, "segou", "89007700", new Date(),new Date(),new Date());
         Personne p5= new Personne(2,"Ballo", "Ami", 20, "kaye", "65007700", new Date(),new Date(),new Date());
+
         System.out.println(p1.toString());
         System.out.println(p2.toString());
         System.out.println(p3.toString());
@@ -48,6 +45,7 @@ System.out.println("Hello and Welcome");
             ComptePayant cp3 = new ComptePayant(22,22,3000,new Date(),new Date());
             ComptePayant cp4 = new ComptePayant(03,12,5000,new Date(),new Date());
             ComptePayant cp5 = new ComptePayant(15,02,90000,new Date(),new Date());
+
             System.out.println(cp1.toString());
             System.out.println(cp2.toString());
             System.out.println(cp3.toString());

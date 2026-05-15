@@ -65,8 +65,19 @@ public class Compte {
     public void retirer(float mt){
         if(mt<solde) solde-=mt;
     }
-    public String toString(){
-        return("Code="+code+" Solde="+solde);
+
+    @Override
+    public String toString() {
+        String s= "Compte{" +
+                "code=" + code +
+                ", nbCompte=" + nbCompte +
+                ", solde=" + solde +
+                ", CreatedDate=" + CreatedDate +
+                ", updatedDate=" + updatedDate +
+                '}';
+        System.out.println(s);
+        return s;
     }
+
 
 }
