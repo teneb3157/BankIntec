@@ -2,7 +2,7 @@ package Entites;
 
 import java.util.Date;
 
-public class Personne {
+public class   Personne {
     private int id;
     private String nom;
     private String prenom;
